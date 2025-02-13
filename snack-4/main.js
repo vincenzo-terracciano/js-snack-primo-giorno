@@ -12,6 +12,8 @@ for (let i = 0; i < 6; i++) {
     }
     else {
         num.push(userNumber)
+        console.log(`${userNumber} is odd`);
+        
     }
 }
 console.log(`${num} are odd`);
