@@ -5,6 +5,7 @@ let sum = 0
 
 for (let i = 0; i < 10; i++) {
     const userNumber = Number(prompt("Inserisci un numero"))
+    console.log(userNumber);
     sum += userNumber
 }
-console.log(`La somma dei numeri è ${somma}`);
+console.log(`La somma dei numeri è ${sum}`);
